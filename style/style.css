@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main section {
+    padding: 1.7rem 0;
+}
+
 nav {
     background-color: orange;
     display: flex;
@@ -18,13 +22,33 @@ nav div {
     align-items: center;
 }
 
+.background-gray {
+    background-color: gray;
+}
+
+.background-green {
+    background-color: green;
+}
+
+.big-content {
+    flex-basis: 60%;
+    background-color: lightskyblue;
+}
+
+.content-box {
+    display: flex;
+    height: 16.7rem;
+    justify-content: space-between;
+    margin: 0 12rem;
+}
+
 .header-banner-box {
-    background-color: #ffffbe;
+    background-color: blue;
     padding: 1.7rem 0;
 }
 
 .header-banner-box div {
-    background-color: #8fc26d;
+    background-color: #ee82ee;
     height: 13.3rem;
     margin: 0 16.8rem;
 }
@@ -45,4 +69,13 @@ nav div {
 .nav-links {
     flex-basis: 60%;
     justify-content: center;
+}
+
+.small-content {
+    flex-basis: 40%;
+    background-color: pink;
+}
+
+.long {
+    height: 29.9rem;
 }
