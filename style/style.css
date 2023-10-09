@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: orange;
+    display: flex;
+    height: 1.7rem;
+    justify-content: space-between;
+    margin: 0 12rem;
+    padding: 0 0.5rem;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+.header-banner-box {
+    background-color: #ffffbe;
+    padding: 1.7rem 0;
+}
+
+.header-banner-box div {
+    background-color: #8fc26d;
+    height: 13.3rem;
+    margin: 0 16.8rem;
+}
+
+.logo, .login {
+    flex-basis: calc(20% - 1rem);
+}
+
+.login {
+    justify-content: flex-end;
+}
+
+.nav-box {
+    background-color: lightskyblue;
+    padding: 0.5rem 0;
+}
+
+.nav-links {
+    flex-basis: 60%;
+    justify-content: center;
+}
